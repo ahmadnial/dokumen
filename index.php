@@ -8,12 +8,12 @@
     <meta name="author" content="" />
     <title>DOKUMEN | RSNR</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
+    <!-- Font Awesome icons-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
+    <!-- Core theme CSS-->
     <link href="home/css/styles.css" rel="stylesheet" />
 </head>
 
@@ -52,7 +52,6 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <!-- <h2 class="text-white mb-4">Built with Bootstrap 5</h2> -->
                     <p class="text-white-50">
                         Search,learning and sharing Document with a Simple & Awesome Way.
                     </p>
@@ -66,14 +65,8 @@
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy; IT-RSNR 2022 | Anything U Want.</div>
     </footer>
-    <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
