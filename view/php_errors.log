@@ -1,0 +1,108 @@
+[17-Sep-2022 11:06:19 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo" in D:\nial_app\dokumen\view\doc-rs.php on line 272
+[17-Sep-2022 11:29:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected variable "$query", expecting "(" in D:\nial_app\dokumen\view\doc-rs.php on line 233
+[17-Sep-2022 11:30:15 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, resource given in D:\nial_app\dokumen\view\doc-rs.php on line 233
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 256
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 267
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 275
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 256
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 267
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 275
+[17-Sep-2022 11:31:12 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\nial_app\dokumen\view\doc-rs.php:255
+Stack trace:
+#0 {main}
+  thrown in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 256
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 267
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 275
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 256
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 267
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 275
+[17-Sep-2022 11:32:03 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\nial_app\dokumen\view\doc-rs.php:255
+Stack trace:
+#0 {main}
+  thrown in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 256
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 267
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 275
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 256
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 267
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 275
+[17-Sep-2022 11:32:10 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\nial_app\dokumen\view\doc-rs.php:255
+Stack trace:
+#0 {main}
+  thrown in D:\nial_app\dokumen\view\doc-rs.php on line 255
+[17-Sep-2022 11:32:53 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, resource given in D:\nial_app\dokumen\view\doc-rs.php on line 234
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 263
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 266
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 269
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 277
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 257
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 258
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 259
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 260
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 261
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 262
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 263
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 264
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 266
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 269
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type int in D:\nial_app\dokumen\view\doc-rs.php on line 277
+[17-Sep-2022 11:34:15 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\nial_app\dokumen\view\doc-rs.php:257
+Stack trace:
+#0 {main}
+  thrown in D:\nial_app\dokumen\view\doc-rs.php on line 257
