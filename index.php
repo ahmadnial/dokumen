@@ -1,347 +1,80 @@
-<?php
-include "template/header.php";
-?>
-<nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="asset/img/logoNR.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            | <b>Dashboard Dokumen SOP</b>
-        </a>
-    </div>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>DOKUMEN | RSNR</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" />
+</head>
 
-    <!-- <div class="container mt-4 mb-3 text-center">
-        <h1>DASHBOARD DOKUMEN SPO</h1>
-    </div> -->
-
-    <div class="container-xxl">
-        <div class="row">
-            <!-- <div class="col"> -->
-            <div class="bg-warning text-center mt-2 mb-3 col-lg-11 col-sm-11 text-center ">
-                <h2>PELAYANAN MEDIS</h2>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">NUR ROHMAH | RUMAH SAKIT</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li> -->
+                </ul>
             </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/igd.jfif" class="card-img-top" salt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Gawat Darurat (IGD)</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Gawat Darurat (IGD).</p>
-                    <a href="app/igd.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/ibs.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Bedah Sentral (IBS)</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Bedah Sentral (IBS).</p>
-                    <a href="app/ibs.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/vk.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Kebidanan & Kandungan</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Kebidanan.</p>
-                    <a href="app/obsgyn.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/rj.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Rawat Jalan</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Rawat Jalan.</p>
-                    <a href="app/RJ.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/ri.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Rawat Inap</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Rawat Inap.</p>
-                    <a href="app/ranap.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/hd.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Hemodialisa</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Hemodialisa.</p>
-                    <a href="app/HD.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/asuhan.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Unit Asuhan Keperawatan & Kebidanan</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Unit Asuhan Keperawatan & Kebidanan.</p>
-                    <a href="app/asuhan-keperawatan-kebidanan.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <!-- <h5 class="bg-warning">PENUNJANG MEDIS</h5> -->
-            <div class="bg-warning text-white mt-2 mb-3 col-lg-11 col-md-11 text-center ">
-                <h2>PENUNJANG MEDIS</h2>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/radiologi.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Radiologi</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Radiologi.</p>
-                    <a href="App/radiologi.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/rehabilitasimedik.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Rehabilitasi Medik</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Rehabilitasi Medik.</p>
-                    <a href="app/rehabilitasi-medik.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/lab.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Laboratorium</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Laboratorium.</p>
-                    <a href="app/lab.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/rm.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Rekam Medis</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Rekam Medis.</p>
-                    <a href="app/rekam-medis.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/farmasi.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Farmasi</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Farmasi.</p>
-                    <a href="app/farmasi.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/sanitasi.jfif" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Sanitasi</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Sanitasi.</p>
-                    <a href="app/sanitasi.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/cssd.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi CSSD</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi CSSD.</p>
-                    <a href="app/cssd.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/gizi.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Instalasi Gizi</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Instalasi Gizi.</p>
-                    <a href="app/gizi.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <!-- <h5 class="bg-warning">UMUM</h5> -->
-            <div class="bg-warning text-white mt-2 mb-3 col-lg-11 col-md-11 text-center ">
-                <h2>UMUM</h2>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/ipsrs.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Unit IPSRS</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Unit IPSRS.</p>
-                    <a href="app/ipsrs.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/logoNR.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Unit PKRS</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Unit PKRS.</p>
-                    <a href="app/pkrs.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/security.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Unit Keamanan</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Unit Keamanan.</p>
-                    <a href="app/security.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/driver.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Unit Driver</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Unit Driver.</p>
-                    <a href="app/driver.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/sdm.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Unit SDM</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Unit SDM.</p>
-                    <a href="app/sdm.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/logoNR.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Rumah Tangga</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Rumah Tangga.</p>
-                    <a href="app/rumah-tangga.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/IT.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Unit IT</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Unit IT.</p>
-                    <a href="app/IT.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/keu.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Keuangan</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Keuangan.</p>
-                    <a href="app/keuangan.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/penjaminan.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Administrasi Pembiayaan</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Administrasi Pembiayaan.</p>
-                    <a href="app/admin-pembiayaan.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <!-- <h5 class="bg-warning">TIM LAINNYA</h5> -->
-            <div class="bg-warning text-white mt-2 mb-3 col-lg-11 col-md-11 text-center ">
-                <h2>TIM LAINNYA</h2>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/skp.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Tim SKP</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Tim SKP.</p>
-                    <a href="app/skp.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/ppi.jpeg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Komite PPI</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Komite PPI.</p>
-                    <a href="app/komite-ppi.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/k3.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Tim K3</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Tim K3.</p>
-                    <a href="app/tim-k3.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/manajemen_komplain.jpg" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Tim Manajemen Komplain</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Tim Manajemen Komplain.</p>
-                    <a href="app/manajemen-komplain.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/logoNR.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Komite Keperawatan</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Komite Keperawatan.</p>
-                    <a href="app/komite-keperawatan.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/logoNR.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Komite Medis</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Komite Medis.</p>
-                    <a href="app/komite-medis.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/logoNR.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Komite Etik & Hukum</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Komite Etik & Hukum.</p>
-                    <a href="app/komite-etik-hukum.php" class="btn btn-primary">Get Awsem!</a>
-                </div>
-            </div>
-
-            <div class="card ml-3" style="width: 20rem;">
-                <img src="Asset/img/marketing.png" class="card-img-top" alt="..." width="250" height="170">
-                <div class="card-body">
-                    <h3 class="card-title"><b>Tim Marketing</b></h3>
-                    <p class="card-text">Standar Operasional Prosedur Tim Marketing.</p>
-                    <a href="app/marketing.php" class="btn btn-primary">Get Awsem!</a>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">DOKUMEN | RS</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Selamat datang di Portal Dokumen Rumah Sakit.</h2>
+                    <a class="btn btn-warning" href="view/doc-rs.php">Get Started</a>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <!-- <h2 class="text-white mb-4">Built with Bootstrap 5</h2> -->
+                    <p class="text-white-50">
+                        Search,learning and sharing Document with a Simple & Awesome Way.
+                    </p>
+                </div>
+            </div>
+            <!-- <img class="img-fluid" src="assets/img/ipad.png" alt="..." /> -->
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">Copyright &copy; IT-RSNR 2022 | Anything U Want.</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
-<!-- jQuery -->
-<script src="dashboard/plugins/jquery/jquery.min.js"></script>
-<script src="dashboard/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="dashboard/dist/js/adminlte.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script defer src="fa/js/all.js" integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
-<script defer src="fa/js/fontawesome.js" integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
 
 </html>
-<?php include "template/footerNonJS.php"; ?>
