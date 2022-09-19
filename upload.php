@@ -208,13 +208,6 @@ include "template/header.php";
 
                         <body>
                             <embed type="application/pdf" src="Asset/save_file/<?php echo $data['file_nama']; ?>#toolbar=0" width="750" height="800"></embed>
-                            <script>
-                                $(document).ready(function() {
-                                    $('body').bind('cut copy', function(e) {
-                                        e.preventDefault();
-                                    });
-                                });
-                            </script>
                         </body>
                     </div>
                     </form>
