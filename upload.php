@@ -128,27 +128,25 @@ include "template/header.php";
     <!-- <div class="container"> -->
     <div class="container-xxl">
         <div class="card">
-            <div class="card-body">
-                <div class="mb-3">
-                    <div class="row">
-                        <div class="card-body">
-                            <table id="example1" class="table table-bordered table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Jenis Dokumen</th>
-                                        <th>Unit/Ins. Pemilik Dokumen</th>
-                                        <th>Nama SPO</th>
-                                        <th>Nomor SPO</th>
-                                        <th>Tanggal Pengesahan</th>
-                                        <th>Status</th>
-                                        <th>Tanggal Verifikasi</th>
-                                        <th>File</th>
-                                        <th>awsem</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                        </div>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="card-body">
+                        <table id="example1" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Jenis Dokumen</th>
+                                    <th>Unit/Ins. Pemilik Dokumen</th>
+                                    <th>Nama SPO</th>
+                                    <th>Nomor SPO</th>
+                                    <th>Tanggal Pengesahan</th>
+                                    <th>Status</th>
+                                    <th>Tanggal Verifikasi</th>
+                                    <th>File</th>
+                                    <th>awsem</th>
+                                </tr>
+                            </thead>
+                            <tbody>
                     </div>
                 </div>
             </div>
@@ -271,7 +269,6 @@ include "template/header.php";
         document.onmousedown = mousehandler;
         document.onmouseup = mousehandler;
     </script>
-
 
     <?php
     include 'template/footer.php';

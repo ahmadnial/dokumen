@@ -136,7 +136,7 @@
                                     <form action="" method="post">
                                         <div class="form-gruop mb-3">
                                             <div class="form-inline">
-                                                <div class="mr-2">
+                                                <div class="mr-2 mt-1">
                                                     <!-- <label for="" class="form-label">Jenis Dokumen</label> -->
                                                     <select class="custom-select" name="jenis_dokumen" required>
                                                         <option selected>Pilih Jenis Dokumen</option>
@@ -149,7 +149,7 @@
                                                         <option value="Pedoman Pengorganisasian">Pedoman Pengorganisasian</option>
                                                     </select>
                                                 </div>
-                                                <div class="mr-1">
+                                                <div class="mr-1 mt-1">
                                                     <select class="custom-select" name="unit" required>
                                                         <option selected>Pilih Pemilik Dokumen</option>
                                                         <option value="Instalasi Rawat Inap">Instalasi Rawat Inap</option>
@@ -288,7 +288,7 @@
             <div class="float-right d-none d-sm-block">
                 <b></b>
             </div>
-            <strong>Copyright &copy; 2022 <a href="">IT-RSNR</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2022 <a href="">IT-RSNR</a></strong> | Anything U Want.
         </footer>
 
         <!-- Control Sidebar -->
@@ -300,9 +300,9 @@
     <!-- ./wrapper -->
 
     <!-- jQuery -->
-    <script src="dashboard/plugins/jquery/jquery.min.js"></script>
+    <script src="../dashboard/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
-    <script src="dashboard/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../dashboard/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- DataTables  & Plugins -->
     <script src="../dashboard/plugins/datatables/jquery.dataTables.min.js"></script>
     <script src="../dashboard/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
@@ -324,7 +324,7 @@
                 "responsive": true,
                 "lengthChange": false,
                 "autoWidth": false,
-                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+                // "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
             }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
             $('#example2').DataTable({
                 "paging": true,
