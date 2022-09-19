@@ -1,11 +1,6 @@
 <?php
 
-session_start();
 
-if (!isset($_SESSION["login"])) {
-    header("location: http://192.168.10.7:277/IT-portal/index.php");
-    exit;
-}
 
 // panggil file 
 include 'conn.php';
@@ -130,63 +125,63 @@ include "template/header.php";
         </div>
     </div>
 
-    <div class="container">
-        <div class="container-fluid">
-            <div class="card">
-                <div class="card-body">
-                    <div class="mb-3">
-                        <div class="row">
-                            <div class="card-body">
-                                <table id="example1" class="table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>No</th>
-                                            <th>Jenis Dokumen</th>
-                                            <th>Unit/Ins. Pemilik Dokumen</th>
-                                            <th>Nama SPO</th>
-                                            <th>Nomor SPO</th>
-                                            <th>Tanggal Pengesahan</th>
-                                            <th>Status</th>
-                                            <th>Tanggal Verifikasi</th>
-                                            <th>File</th>
-                                            <th>awsem</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                            </div>
+    <!-- <div class="container"> -->
+    <div class="container-xxl">
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="card-body">
+                            <table id="example1" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Jenis Dokumen</th>
+                                        <th>Unit/Ins. Pemilik Dokumen</th>
+                                        <th>Nama SPO</th>
+                                        <th>Nomor SPO</th>
+                                        <th>Tanggal Pengesahan</th>
+                                        <th>Status</th>
+                                        <th>Tanggal Verifikasi</th>
+                                        <th>File</th>
+                                        <th>awsem</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <?php
-        $sql = "SELECT * FROM document_rs_spo";
-        $no = 1;
-        //eksekusi query menampilkan data
-        $query = sqlsrv_query($conn, $sql) or die(sqlsrv_errors());;
-        //mengembalikan data row menjadi array dan looping data menggunakan while
-        while ($data = sqlsrv_fetch_array($query)) {
-        ?>
-            <tr>
-                <td><?= $no++ ?></td>
-                <td><?php echo $data['jenis_dokumen']; ?></td>
-                <td><?php echo $data['unit']; ?></td>
-                <td><?php echo $data['nama_file']; ?></td>
-                <td><?php echo $data['no_spo']; ?></td>
-                <td><?php echo $data['tanggal']; ?></td>
-                <td><?php echo $data['status']; ?></td>
-                <td><?php echo $data['tanggal_verif']; ?></td>
-                <td><?php echo $data['file_nama']; ?></td>
-                <td>
-                    <div class="btn-group" role="group" aria-label="">
-                        <button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#view<?php echo $data['id']; ?>">View</button>
-                        <button type="button" class="btn btn-xs btn-danger ml-1" data-toggle="modal" data-target="#del<?php echo $data['id']; ?>">delete</button>
-                    </div>
-                </td>
-            </tr>
+    <?php
+    $sql = "SELECT * FROM document_rs_spo";
+    $no = 1;
+    //eksekusi query menampilkan data
+    $query = sqlsrv_query($conn, $sql) or die(sqlsrv_errors());;
+    //mengembalikan data row menjadi array dan looping data menggunakan while
+    while ($data = sqlsrv_fetch_array($query)) {
+    ?>
+        <tr>
+            <td><?= $no++ ?></td>
+            <td><?php echo $data['jenis_dokumen']; ?></td>
+            <td><?php echo $data['unit']; ?></td>
+            <td><?php echo $data['nama_file']; ?></td>
+            <td><?php echo $data['no_spo']; ?></td>
+            <td><?php echo $data['tanggal']; ?></td>
+            <td><?php echo $data['status']; ?></td>
+            <td><?php echo $data['tanggal_verif']; ?></td>
+            <td><?php echo $data['file_nama']; ?></td>
+            <td>
+                <div class="btn-group" role="group" aria-label="">
+                    <button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#view<?php echo $data['id']; ?>">View</button>
+                    <button type="button" class="btn btn-xs btn-danger ml-1" data-toggle="modal" data-target="#del<?php echo $data['id']; ?>">delete</button>
+                </div>
+            </td>
+        </tr>
 
-            <!-- <script>
+        <!-- <script>
                 $(document).ready(function() {
                     $('.view_data').click(function() {
                         var data_id = $(this).data("id_file")
@@ -204,80 +199,80 @@ include "template/header.php";
                     })
                 })
             </script> -->
-            <div class="modal fade" id="view<?php echo $data['id']; ?>">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="Label">View</h5>
-                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
+        <div class="modal fade" id="view<?php echo $data['id']; ?>">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="Label">View</h5>
+                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
 
-                            <body>
-                                <embed type="application/pdf" src="Asset/save_file/<?php echo $data['file_nama']; ?>#toolbar=0" width="750" height="800"></embed>
-                                <script>
-                                    $(document).ready(function() {
-                                        $('body').bind('cut copy', function(e) {
-                                            e.preventDefault();
-                                        });
+                        <body>
+                            <embed type="application/pdf" src="Asset/save_file/<?php echo $data['file_nama']; ?>#toolbar=0" width="750" height="800"></embed>
+                            <script>
+                                $(document).ready(function() {
+                                    $('body').bind('cut copy', function(e) {
+                                        e.preventDefault();
                                     });
-                                </script>
-                            </body>
-                        </div>
-                        </form>
+                                });
+                            </script>
+                        </body>
                     </div>
-                    <!-- <button type="button" class="btn btn-danger mt-3 float-right" data-dismiss="modal">Close</button> -->
-                    <div class="modal-footer">
-                    </div>
+                    </form>
+                </div>
+                <!-- <button type="button" class="btn btn-danger mt-3 float-right" data-dismiss="modal">Close</button> -->
+                <div class="modal-footer">
                 </div>
             </div>
+        </div>
 
-            <div class="modal fade" id="del<?php echo $data['id']; ?>">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="Label">Konfirmasi dulu, Serius mau di Hapus?</h5>
-                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-
-                            <body>
-                                <form action="" method="post">
-                                    <input type="hidden" name="id_del" value="<?php echo $data['id']; ?>">
-                                    <button type="submit" name="del" class="btn btn-success">Ya dong</button>
-                                    <button type="button" class="btn btn-danger ml-1" data-dismiss="modal">Gajadi</button>
-                                </form>
-                            </body>
-                        </div>
+        <div class="modal fade" id="del<?php echo $data['id']; ?>">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="Label">Konfirmasi dulu, Serius mau di Hapus?</h5>
+                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <!-- <button type="button" class="btn btn-danger mt-3 float-right" data-dismiss="modal">Close</button> -->
-                    <div class="modal-footer">
+                    <div class="modal-body">
+
+                        <body>
+                            <form action="" method="post">
+                                <input type="hidden" name="id_del" value="<?php echo $data['id']; ?>">
+                                <button type="submit" name="del" class="btn btn-success">Ya dong</button>
+                                <button type="button" class="btn btn-danger ml-1" data-dismiss="modal">Gajadi</button>
+                            </form>
+                        </body>
                     </div>
                 </div>
+                <!-- <button type="button" class="btn btn-danger mt-3 float-right" data-dismiss="modal">Close</button> -->
+                <div class="modal-footer">
+                </div>
             </div>
-        <?php } ?>
+        </div>
+    <?php } ?>
 
-        <?php include 'delete.php'; ?>
+    <?php include 'delete.php'; ?>
 
-        <script>
-            var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-            if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+    <script>
+        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+        if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
 
-            function mischandler() {
-                return false;
-            }
+        function mischandler() {
+            return false;
+        }
 
-            function mousehandler(e) {
-                var myevent = (isNS) ? e : event;
-                var eventbutton = (isNS) ? myevent.which : myevent.button;
-                if ((eventbutton == 2) || (eventbutton == 3)) return false;
-            }
-            document.oncontextmenu = mischandler;
-            document.onmousedown = mousehandler;
-            document.onmouseup = mousehandler;
-        </script>
+        function mousehandler(e) {
+            var myevent = (isNS) ? e : event;
+            var eventbutton = (isNS) ? myevent.which : myevent.button;
+            if ((eventbutton == 2) || (eventbutton == 3)) return false;
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+    </script>
 
 
-        <?php
-        include 'template/footer.php';
-        ?>
+    <?php
+    include 'template/footer.php';
+    ?>
